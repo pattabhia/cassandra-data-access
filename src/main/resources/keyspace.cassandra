@@ -1,0 +1,3 @@
+create keyspace userspace with replication = {'class':'SimpleStrategy','replication_factor':3};
+create table user(id int PRIMARY KEY, name text, address text, age int);
+docker exec -it 89266f2fa61b bash

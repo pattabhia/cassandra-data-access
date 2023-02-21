@@ -1,4 +1,4 @@
-package com.devcodeworld.cassandra.data;
+package com.devcodeworld.cassandra.data.model;
 
 
 import lombok.AllArgsConstructor;
